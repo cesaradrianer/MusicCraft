@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Georgia;
+}
+
+header, #welcome {
+    background-color: #B3FFFD;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar>ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar>h1 {
+    margin: 0;
+    padding: 40px;
+    color: #00B4AF;
+}
+
+#nav_link {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1em;
+    border-radius: 4px;
+    background-color: #B3FFFD;
+    transition: background-color .5s;
+}
+
+#nav_link:hover {
+    background-color: #00B4AF;
+}
+
+#welcome>h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+#welcome>h1>p {
+    margin: 0;
+    padding: 4px;
+}
+
+#welcome {
+    padding: 12em;
+    background-image: url(/src/img/vania-shows-N1I6IgDOGJs-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#welcome>img {
+    max-width: fit-content;
+}
+
+#descarga_musiccraft {
+    color: white;
+    background-color: #00CAC4;
+    padding: 1em 2em 1em 2em;
+    border-radius: 1em;
+    margin-left: 8px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9em;
+}
+
+#description>h1 {
+    font-size: 2em;
+}
+
+#description>p {
+    color: gray;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#features_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8em;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 16em;
+    padding: 4em;
+    text-align: center;
+}
+
+.feature_img {
+    width: fit-content;
+}
+
+.feature>p {
+    color: gray;
+}
